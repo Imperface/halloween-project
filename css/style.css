@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "Franklin Gothic Book";
+  src: url(../fonts/franklin-gothic-book-regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Franklin Gothic URW Boo";
+  src: url(../fonts/franklin-gothic-urw-boo-regular.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Franklin Gothic URW Boo Italic";
+  src: url(../fonts/franklin-gothic-urw-boo-ita-regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Franklin Gothic URW Dem";
+  src: url(../fonts/franklin-gothic-urw-dem-regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Jana Thork Pro Regular";
+  src: url(../fonts/jana-thork-pro-regular.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Jana Thork Pro Bold";
+  src: url(../fonts/jana-thork-pro-bold.woff2) format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Josefin Sans Regular";
+  src: url(../fonts/josefin-sans-regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Utopia Std";
+  src: url(../fonts/utopia-std-regular.otf) format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Utopia Std Black Headline";
+  src: url(../fonts/utopia-std-black-headline.otf) format("opentype");
+}
+@font-face {
+  font-family: "Utopia Std Capt Italic";
+  src: url(../fonts/utopia-std-capt-italic.otf) format("opentype");
+}
+@font-face {
+  font-family: "Utopia Std Disp";
+  src: url(../fonts/utopia-std-disp.otf) format("opentype");
+}
+:root {
+  --color-text-navigation: #dcdcdc;
+  --color-text-hero: #ff0000;
+
+  --color-text-navigation-hover: #ff0000;
+  --color-text-navigation-focus: #ff0000;
+  --color-background: #080605;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  max-width: 1440px;
+  background: var(--color-background);
+  margin: 0 auto;
+}
+header {
+  background-color: var(--color-background-header);
+}
+.list-navigation a {
+  font-family: "Josefin Sans Regular";
+  font-size: 16px;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--color-text-navigation);
+}
+.list-navigation a:hover {
+  color: var(--color-text-navigation-hover);
+  text-decoration: underline;
+}
+.list-navigation a:focus {
+  color: var(--color-text-navigation-focus);
+  text-decoration: underline;
+}
+.section-hero {
+  color: var(--color-text-hero);
+  background-image: url(../images/background/girl-with-skull-front-view.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 123px;
+}
+
+.heading-halloween {
+  font-size: 19px;
+  line-height: normal;
+  display: inline;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic URW Boo";
+  letter-spacing: 2em;
+  /* margin-right: -2em; */
+}
+.heading-halloween-part {
+  font-size: 19px;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic URW Boo";
+}
+.title-hero {
+  font-family: "Jana Thork Pro Regular";
+  font-size: 109px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.subtitle-hero {
+  font-family: "Franklin Gothic URW Boo";
+  font-size: 24px;
+  letter-spacing: 80px;
+  display: inline;
+  text-transform: uppercase;
+}
+.subtitle-hero-part {
+    font-family: "Franklin Gothic URW Boo";
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.text-event {
+  text-align: left;
+  background-image: radial-gradient(
+    circle 286px at center,
+    #090706 0%,
+    #343434 100%
+  );
+  opacity: 0.5;
+  max-width: 898px;
+}
+.text-event h2{
+
+color: var(--color-text-hero);
+}
